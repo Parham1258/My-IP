@@ -1,5 +1,5 @@
 # My IP
-vercel = False
+vercel = True
 import os
 from flask import Flask, request, make_response
 if not vercel: from waitress import serve
