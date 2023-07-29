@@ -1,0 +1,10 @@
+{
+    "builds": [{
+        "src": "./Ghorbaghe Shop Website.py",
+        "use": "@vercel/python"
+    }],
+    "routes": [{
+        "src": "/(.*)",
+        "dest": "/Ghorbaghe Shop Website.py"
+    }]
+}
